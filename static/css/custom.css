@@ -1,0 +1,36 @@
+.panel-default {
+   float: left;
+   margin: 0 15px 20px 15px ;
+}
+
+.panel-info {
+   float: right;
+   margin: 0 15px 20px 15px ;
+   font-size: larger;
+}
+
+.nav li {
+   font-size: large;
+}
+
+.dc-chart g.row text {
+    fill: black;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.dc-legend {
+    font-size: 14px;
+}
+
+@media only screen and (min-device-width : 770px) and (max-device-width : 920px) {
+    .first {
+        padding-top: 90px ;
+    }
+}
+
+@media only screen and (max-device-width : 770px) {
+     .first {
+        padding-top: 170px ;
+    }
+}
